@@ -1,0 +1,303 @@
+@charset "utf-8";
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bs-primary: #b54aa5;
+    --bs-secondary: #32AD9D;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    background-color: white;
+}
+
+h1 {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.3em;
+    text-align: center;
+    color: var(--bs-primary);
+}
+
+h3 {
+    font-size: 1.25em;
+    text-align: center;
+    color: var(--bs-secondary);
+}
+
+
+/*margen de arriba para home y ancho máximo*/
+
+.mt-home {
+    margin-top: 9.5rem;
+}
+
+.mw {
+    max-width: 1920px;
+}
+
+
+/*desplegable centrado*/
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-toggler-icon {
+    text-align: center;
+}
+
+
+/*color para los iconos sociales en contacto*/
+
+.text-rrss {
+    color: var(--bs-primary);
+}
+
+
+/*MCOLORES BARRA NAVEGACIÓN*/
+
+.bg-nav {
+    background-color: var(--bs-primary);
+}
+
+.bg-foot {
+    background-color: var(--bs-secondary);
+}
+
+s
+/*separación del breadcrumb y texto del enlace a home*/
+
+.breadcrumb {
+    padding-top: 70px;
+}
+
+.breadcrumb a {
+    color: var(--bs-secondary);
+}
+
+
+/*FAQ*/
+
+.accordion-button,
+.accordion-button:not(.collapsed) {
+    color: var(--bs-primary);
+}
+
+.accordion {
+    width: 100vw;
+    padding: 50px 50px 50px 50px;
+}
+
+
+/*BOOTSTRAP inicio de sesión*/
+
+.global-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding-top: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.btn {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.login-form {
+    width: 330px;
+    margin: 20px;
+}
+
+.btn-primary {
+    margin: 70px;
+    width: 50%;
+    color: #fff;
+}
+
+.sign-up {
+    text-align: center;
+    padding: 20px 0 0;
+}
+
+.alert {
+    margin-bottom: -30px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+/*el banner ocupa el ancho completo tanto en versión reducida como ampliada, 
+            se valora la posibilidad de que quede solamente central en la versión grande*/
+
+.banner {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 15px 0;
+}
+
+.banner img {
+    width: 100%;
+    margin-top: 15px;
+}
+
+section {
+    padding: 50px;
+}
+
+
+/*color y hover del footer*/
+
+footer .nav-item a {
+    color: #fff;
+}
+
+footer .nav-item a:hover {
+    color: var(--bs-primary);
+}
+
+
+/*Hover para fotos con link*/
+
+a img:hover {
+    opacity: 0.7;
+}
+
+
+/*NUESTRAS TARIFAS, contenedores dentro del principal e identificadores para los colores*/
+
+.bg-tarifas {
+    background-color: #D8F0ED;
+}
+
+.tarifas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.tarifas div {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #000;
+    background-color: #c1d6cc;
+}
+
+#individual {
+    background-color: #d0ddc9;
+    border: 3px solid #95cc78;
+}
+
+#grupal {
+    background-color: #DAC2C2;
+    border: 3px solid #dba0a0;
+}
+
+#sesion1 {
+    background-color: #E5D8F0;
+    border: 3px solid #ae8ace;
+}
+
+#sesion2 {
+    background-color: #DFA4BC;
+    border: 3px solid #aa4c72;
+}
+
+footer a.nav-link.active {
+    color: #bfc0c1;
+    ;
+}
+
+
+/*PROPIEDADES DE BOTONES inactivos y en hover*/
+
+.boton {
+    padding: 12px;
+    background-color: var(--bs-primary);
+    border-radius: 40px;
+}
+
+.boton:hover {
+    background-color: #d88fcd;
+    color: #494248;
+}
+
+
+/*COLOCAR y centrar los iconos del main*/
+
+.main-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.centrar {
+    padding: 2em;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+
+/* logo barra de navegación superior*/
+
+.navbar-logo {
+    padding: 8px;
+    width: 70px;
+}
+
+
+/*los trastornos que se tratan en el apartado de especialidades y equipo*/
+
+.trastornos {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.trastornos div {
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.trastornos figcaption {
+    margin: 15px;
+    color: var(--bs-primary);
+}
+
+footer {
+    font-size: 0.9em;
+}
+
+.slider {
+    display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    footer {
+        font-size: 1.2em;
+    }
+    .slider {
+        display: block;
+    }
+    .no-slider {
+        display: none;
+    }
+}
