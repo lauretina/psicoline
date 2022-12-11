@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sesiones de terapia online con psicólogos especializados que se adaptan a tu estilo y ritmo de vida actual">
+    <title>PSICOLINE</title>
+    <!-- Iconos Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Estilos de BootStrap -->
+    <link rel="stylesheet" href="source/css/bootstrap-min.css">
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="fondo d-flex flex-column min-vh-100">
+    <!-- Cabecera del documento -->
+    <header class="flex-{grow|shrink}-0 fixed-top">
+        <!-- Menú de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-nav p-3 mb-5">
+            <div class="container mw">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i></button>
+                <a class="navbar-logo" href="index.html"><img src="img/logoenblanco.svg" alt="logo"></a>
+                <a class="navbar-brand" href="index.html">PSICOLINE</a>
+                <a class="nav-link" href="iniciarsesion.html"><i class="fas fa-user"></i></a>
+                <a class="nav-link" href="#"><i class="fas fa-low-vision"></i></a>
+                <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="comofunciona.html ">¿CÓMO FUNCIONA?</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="equipoespecialidades.html ">SOBRE NOSOTROS</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="contacto.html ">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido principal del documento -->
+    <main class="flex-grow-1 flex-shrink-0 mt-home mb-home container mv">
+        <!-- Breadcrumb editado  -->
+        <nav aria-label="breadcrumb p-2 ">
+            <ol class="breadcrumb ">
+                <li class="breadcrumb-item "><a href="index.html ">Home</a></li>
+                <li class="breadcrumb-item ">Contacto</li>
+            </ol>
+        </nav>
+        <section>
+            <h1>Contacta con nosotros</h1>
+            <div class="d-flex justify-content-around p-3 ">
+                <a class="text-rrss " href="www.facebook.com "><i class="fab fa-facebook-f fa-4x p-3 "></i></a>
+                <a class="text-rrss " href="www.twitter.com "><i class="fab fa-twitter fa-4x p-3 "></i></a>
+                <a class="text-rrss " href="www.instagram.com "><i class="fab fa-instagram fa-4x p-3 "></i></a>
+            </div>
+        </section>
+        <hr>
+        <div class="d-flex justify-content-around align-items-center p-2">
+            <div class="d-flex flex-column text-center">
+                <i class="fas fa-envelope fa-2x p-3 "></i>psicoline@gmail.com
+            </div>
+            <div>
+                <i class="fas fa-phone fa-2x p-3 "></i>612345678
+            </div>
+        </div>
+        <hr>
+        <!-- Formulario y chat en la misma section  -->
+
+        <section class="d-flex flex-wrap justify-content-around container-sm">
+            <form class="formulario p-2">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Comentarios</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        He leído y acepto la política de privacidad.
+                        </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+
+            <div class="d-flex">
+                <div class="card-1">
+                    <h3>¡Chatea online!</h3>
+                    <div class="card-header d-flex justify-content-between align-items-center p-3 bg-nav text-white border-bottom-0 ">
+                        <i class="fas fa-angle-left "></i>
+                        <p class="mb-0 ">PSICOCHATBOT</p>
+                        <i class="fas fa-times "></i>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex flex-row justify-content-start mb-4">
+                            <img src="img/logoenblanco.svg " alt="psicoline ">
+                            <span class="border bg-foot rounded p-2 text-white ">¿En qué puedo ayudarte?</span>
+                        </div>
+                        <div class="form">
+                            <div class="card-footer d-flex justify-content-start align-items-center p-3">
+                                <textarea class="form-control" id="textAreaExample" rows="4"></textarea>
+                                <a class="p-2 " href="#! "><i class="fas fa-paper-plane text-secondary "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Pie del documento -->
+    <footer class="d-flex justify-content-around align-items-center bg-foot">
+        <div>
+            <ul class="nav p-2 ">
+                <li class="nav-item ">
+                    <a class="nav-link" href="../lauramerino/cookies/cookies.html ">Cookies</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="avisolegal.html">Aviso legal</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="privacidad.html">Política de privacidad</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="nav d-flex justify-content-center ">
+                <li class="nav-item p-3 "><a href="# "><i class="fab fa-facebook-f "></i></a></li>
+                <li class="nav-item p-3 "><a href="# "><i class="fab fa-twitter "></i></a></li>
+                <li class="nav-item p-3 "><a href="# "><i class="fab fa-instagram "></i></a></li>
+            </ul>
+            <p class="text-light text-center p-2 ">©2021 PSICOLINE Todos los derechos reservados</p>
+        </div>
+
+    </footer>
+
+    <!-- Scripts BootStrap -->
+    <script src="source/js/bootstrap.bundle.js "></script>
+</body>
+
+</html>
